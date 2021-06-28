@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FlickrService } from '../services/flickr.service';
-import {Input} from '@angular/core';
+
 
 @Component({
   selector: 'app-search-images',
@@ -14,9 +14,6 @@ export class SearchImagesComponent implements OnInit {
  page:number=1;
  storage:any={};
  list:any[]=[];
-
- @Input ("bookmarks")
- public  bookMarks:any=[];
 
  
   

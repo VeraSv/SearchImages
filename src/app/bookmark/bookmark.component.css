@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.input {
+    display: block;
+
+}
+.cardInfo {
+    height: 100%;
+    margin: 20px;
+}

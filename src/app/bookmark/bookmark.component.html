@@ -1,0 +1,11 @@
+
+ <div class="card" >
+<div *ngFor="let image of images"  class="cardInfo">
+    
+        <a href="{{image.url}}_b.jpg">
+            <img src="{{image.url}}_m.jpg" title="{{image.title}}">
+          </a>
+    <input class="input"  type="button" value="Remove it!" (click)="remove(image.title)">
+</div>
+
+</div>

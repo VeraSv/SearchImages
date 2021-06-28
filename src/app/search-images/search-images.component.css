@@ -1,0 +1,49 @@
+img {
+    object-fit:cover;
+   
+    
+}
+.user, .search, .book {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 20px;
+}
+.search, .book {
+   display: block;
+
+  
+}
+.user {
+    
+    float:right
+}
+.title span {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.title {
+    margin-bottom: 50px;
+}
+
+
+
+.form-control {
+    width: 50%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+}
+
+.inputBookmark {
+    display: block;
+
+}
+.cardInfo {
+    height: 100%;
+    margin: 20px;
+}
+
